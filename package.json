@@ -1,0 +1,30 @@
+{
+  "name": "il-insurance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pays liquidity providers back for divergence loss, out of a fund the pool's own trading fills.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/il-insurance.git"
+  },
+  "homepage": "https://il-insurance.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "risk",
+    "impermanent-loss",
+    "lp-economics",
+    "insurance",
+    "no-admin"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
